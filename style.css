@@ -1,3 +1,15 @@
 body {
     background-color: aqua;
 }
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    min-width: 980px;
+}
+.players {
+    display: flex;
+    justify-content: space-evenly;
+}
+.player {
+
+}
