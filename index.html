@@ -6,9 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rock Paper Scissors</title>
+    <script src="https://kit.fontawesome.com/295d02610c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css" />
 
     <body>
+        <header class="headers">
+            <h1>Paper Scissors Rock</h1>
+        </header>
         <div class="container">
             <div class="players">
                 <div class="player">
@@ -20,6 +24,19 @@
                     <input type='text' value="0" />
                 </div>
             </div>
+            <div class="user-choose">
+                <button class="btn-user far fa-hand-paper"></button>
+                <button class="btn-user far fa-hand-rock"></button>
+                <button class="btn-user far fa-hand-scissors"></button>
+            </div>
+            <div class="game">
+                <button id="start" class="btn-start">
+            Let's go!
+            </button>
+                <span id="timer"></span>
+                <span id="result"></span>
+            </div>
+        </div>
         </div>
         <script src="./app.js">
         </script>
