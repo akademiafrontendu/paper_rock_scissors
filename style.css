@@ -1,48 +1,62 @@
 body {
-    background-color: aqua;
+  background-color: aqua;
 }
 
 .container {
-    display: grid;
-    grid-template-columns: auto;
-    min-width: 980px;
+  display: grid;
+  grid-template-columns: auto;
+  min-width: 980px;
 }
 
 .players {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.player {}
+.player {
+}
 
 .headers {
-    text-align: center;
+  text-align: center;
 }
 
 .user-choose {
-    text-align: center;
-    font-size: 40px;
-    padding: 20px;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
 }
 
 .btn-user {
-    font-size: 60px;
-    padding: 20px;
+  font-size: 60px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.red {
+  color: green;
 }
 
 .game {
-    text-align: center;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.btn-start {
-    font-size: 60px;
-    max-width: 320px;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #timer {
-    font-size: 40px;
+  font-size: 40px;
+}
+
+.display-no {
+  display: none;
+}
+.result {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  align-items: center;
+}
+span {
+  font-size: 20px;
 }
