@@ -9,38 +9,38 @@
     <script src="https://kit.fontawesome.com/295d02610c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css" />
 
-<body>
-    <header class="headers">
-        <h1>Paper Scissors Rock</h1>
-    </header>
-    <div class="container">
-        <div class="players">
-            <div class="player">
-                <h3>Player 1</h3>
-                <input type='text' value="0" />
+    <body>
+        <header class="headers">
+            <h1>Paper Scissors Rock</h1>
+        </header>
+        <div class="container">
+            <div class="players">
+                <div class="player">
+                    <h3>Player</h3>
+                    <span id="scoreUser">0</span>
+                </div>
+                <div class="player">
+                    <h3>Computer</h3>
+                    <span id="scoreComputer">0</span>
+                </div>
             </div>
-            <div class="player">
-                <h3>Computer</h3>
-                <input type='text' value="0" />
+            <div class="user-choose">
+                <button id="paper" class="btn btn-user far fa-hand-paper"></button>
+                <button id="rock" class="btn btn-user far fa-hand-rock"></button>
+                <button id="scissors" class="btn btn-user far fa-hand-scissors"></button>
+            </div>
+            <div class="game">
+                <span id="winner"></span>
+                <div id="result" class="display-no">
+                    <button class="btn-user far" id="result-user"></button>
+                    <span>VS</span>
+                    <button class="btn-user far" id="result-computer"></button>
+                </div>
             </div>
         </div>
-        <div class="user-choose">
-            <button id="paper" class="btn btn-user far fa-hand-paper"></button>
-            <button id="rock" class="btn btn-user far fa-hand-rock"></button>
-            <button id="scissors" class="btn btn-user far fa-hand-scissors"></button>
         </div>
-        <div class="game">
-            <span id="timer"></span>
-            <div id="result" class="display-no">
-                <button class="btn-user far" id="result-user"></button>
-                <span>VS</span>
-                <button class="btn-user far" id="result-computer"></button>
-            </div>
-        </div>
-    </div>
-    </div>
-    <script src="./app.js">
-    </script>
-</body>
+        <script src="./app.js">
+        </script>
+    </body>
 
 </html>
